@@ -269,6 +269,38 @@ a:hover {
 
   #mobile-nav-items {
     display: none;
+    margin-left: -15px !important;
+    /* position: absolute; */
+  }
+  #mobile-nav-items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 10%;
+  }
+  #mobile-nav-items ul li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ffffff8a;
+    font-size: 13px;
+  }
+
+  /* #mobile-nav-items img {
+    height: 60px;
+  } */
+
+  #close-icon {
+    float: right;
+    margin: 0 10%;
+    height: 60px;
+  }
+
+  #menu-icon:hover #mobile-nav-items {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    cursor: pointer;
+    display: block;
   }
 
   #title {
